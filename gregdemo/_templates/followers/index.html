@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Utilisateurs | Greg Exemple{% endblock title %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h1 class="row">Utilisateur</h1>
+        <h2 class="row">Recherche d'un nouvel utilisateur à suivre</h2>
+        <form class="row mb-4" method="post">
+            {% csrf_token %}    
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary">Suivre</button>
+        </form>
+        <h2>Liste des utilisateurs suivis</h2>
+        {% for user in followed_users %}
+            {% if forloop.first %}<ul>{% endif %}
+                <li>{{ user.username }}</li>
+            {% if forloop.last %}</ul>{% endif %}
+        {% empty %}
+                Vous ne suivez aucuns utilisateurs !
+        {% endfor %}
+    </div>
+{% endblock content %}

@@ -1,0 +1,26 @@
+{
+  "app.css": "/static/css/app.7179d5e2cf7d9f2a6f65.css",
+  "app.js": "/static/js/app.da7fe0bd.js",
+  "css/app.7179d5e2cf7d9f2a6f65.css.map": "/static/css/app.7179d5e2cf7d9f2a6f65.css.map",
+  "entrypoints": {
+    "app": {
+      "assets": {
+        "js": [
+          "/static/js/runtime.1d567d44.js",
+          "/static/js/577.2699dc78.js",
+          "/static/js/app.da7fe0bd.js"
+        ],
+        "css": [
+          "/static/css/app.7179d5e2cf7d9f2a6f65.css"
+        ]
+      }
+    }
+  },
+  "js/577.2699dc78.js": "/static/js/577.2699dc78.js",
+  "js/577.2699dc78.js.LICENSE.txt": "/static/js/577.2699dc78.js.LICENSE.txt",
+  "js/577.2699dc78.js.map": "/static/js/577.2699dc78.js.map",
+  "js/runtime.1d567d44.js.map": "/static/js/runtime.1d567d44.js.map",
+  "runtime.js": "/static/js/runtime.1d567d44.js",
+  "vendors/.gitkeep": "/static/vendors/.gitkeep",
+  "vendors/images/.gitkeep": "/static/vendors/images/.gitkeep"
+}
